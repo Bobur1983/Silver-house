@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;   
+    }
+
+
+.header-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-list-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #8c8a8a;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 38px;
+}
+
+.header-content {
+    background: url(../images/House.jpg) no-repeat center /cover;
+    height: 450px;
+  }
+
+  .about {
+    padding: 30px;
+  }
+
+  .about-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #4581b7;
+    margin-bottom: 25px;
+  }
+  .about-box-left p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  }
+
+  .about-box-left {
+    max-width: 730px;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px;
+    }
+
+  .about-box-right {
+    max-width: 350px;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px;
+  }
+
+  .about-box-right p {
+  font-family:"Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  color: #808080;
+  }
+
+  .about-box {
+    display: flex;
+    justify-content: space-between;
+    }
+
+  .about-box {
+    display: flex;
+  }
+  .about-item-tell {
+    display: block;
+    color: black;
+    margin: 25px 0 50px;
+    color: #808080;
+  }
+
+.about-item-imail {
+  display: block;
+  color: #808080;
+  }
+
+  .footer .container{
+    background: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    width: 100%;
+    padding: 15px 40px;
+  }
+
+  .footer-link p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+  margin-bottom: 15px;
+  }
+
+  .footer-link a {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+  color: #808080;
+  }
+
+  @media (max-width:1140px) {
+    .about-box {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 30px;
+    }
+  }
+  @media (max-width:1110px) {
+    .footer .container {    
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width:800px) {
+  .header-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 0px;        
+  }
+
+  .header-list-link {
+    padding: 0;
+    margin: 20px 0 10px;
+    text-align: center;   
+  }
+}
